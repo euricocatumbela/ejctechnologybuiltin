@@ -1,0 +1,27 @@
+.Careers {
+  margin: 0;
+  /* padding: 150px 0 150px 0; */
+}
+
+.HeadingCareer h1 {
+  margin: 0;
+  padding: 220px 0 0px 0;
+  text-align: center;
+  font-size: 60px;
+  background: linear-gradient(
+    104.74deg,
+    rgb(176, 30, 255) 0%,
+    rgb(225, 70, 124) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Careers p {
+  margin: 0;
+  color: white;
+  text-align: center;
+  line-height: 1.3x;
+  font-size: 20px;
+  font-weight: 400;
+}

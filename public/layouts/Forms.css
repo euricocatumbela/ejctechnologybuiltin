@@ -1,0 +1,138 @@
+.Hero1 {
+  background: url("/images/background55.jpg");
+  height: 1110px;
+  background-size: cover;
+  background-position: center;
+  position: relative; /* This was used for SVG */
+}
+
+.SigninCard .form {
+  width: 496px;
+  height: 496px;
+  margin: 0 auto;
+  /* padding: auto auto; */
+  overflow: hidden;
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  background: rgba(4, 8, 37, 0.95);
+  display: grid;
+
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.2);
+  border-image: initial;
+}
+.container {
+  margin: 0;
+  padding: 150px 0 10px 0;
+  text-align: center;
+}
+
+.container h1 {
+  background: linear-gradient(
+    104.74deg,
+    rgb(176, 30, 255) 0%,
+    rgb(225, 70, 124) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+form {
+  margin: auto;
+  padding-top: 100px;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 200px;
+  position: relative;
+}
+form img {
+  padding-top: 20px;
+  padding-right: 0;
+  padding-left: 45%;
+  padding-bottom: 10px;
+}
+form input {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 300px;
+  height: 30px;
+  border-radius: 4px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 20px auto;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+}
+
+form button {
+  appearance: none;
+  outline: 0;
+  background: linear-gradient(115.87deg, #14f1d9 0%, #3672f8 100%);
+  border: 0;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 10px;
+  height: 60px;
+  width: 328px;
+  font-size: 20px;
+}
+
+form button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px);
+}
+form p {
+  color: white;
+  font-size: 15px;
+}
+
+form a {
+  color: rgb(156, 114, 248);
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 20px;
+}
+form h1 {
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .SigninCard .form {
+    width: 340px;
+    height: 390px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .SigninCard input {
+    width: 200px;
+    height: 20px;
+  }
+}
+@media (max-width: 640px) {
+  .SigninCard button {
+    width: 200px;
+    height: 20px;
+  }
+}
+@media (max-width: 640px) {
+  .SigninCard input {
+    width: 200px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .SigninCard h1 {
+    font-size: 20px;
+  }
+}
