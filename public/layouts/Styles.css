@@ -14,11 +14,11 @@ a {
 }
 
 .Hero {
-  background: url("/images/background55.jpg");
+  /* background: url("/images/background55.jpg"); */
   height: 920px;
   background-size: cover;
   background-position: center;
-  position: relative; This was used for SVG
+  position: relative;
 }
 
 .HeroGroup {
@@ -31,12 +31,41 @@ a {
   margin: 0;
   color: white;
   line-height: 1.2;
-  opacity: 0;
-  animation: HeroAnimation;
-  animation-duration: 3s;
-  animation-delay: 0.1;
-  animation-fill-mode: forwards;
-  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  border-right: 4px solid #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 14s steps(37) forwards, blink-caret 0.8s step-end infinite;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  30% {
+    width: 100%;
+  }
+  80% {
+    width: 100%;
+  }
+  90% {
+    width: 0%;
+  }
+  100% {
+    width: 0%;
+  }
+  0% {
+    height: 50%;
+  }
 }
 
 .Hero p {
@@ -112,10 +141,11 @@ a {
 }
 .Cards-1 h2 {
   margin: 50px 20px;
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
   font-weight: 700;
-  background: linear-gradient(104deg, #050a27 0%, #4a548c 100%);
+  background: linear-gradient(156.9deg, #14f1d9 0%, #3672f8 100%);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

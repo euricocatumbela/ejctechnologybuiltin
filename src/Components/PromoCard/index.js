@@ -1,7 +1,6 @@
 import React from "react";
 import promo from "../../Context/Promodata/index";
-import Promo from "../../Context/Promodata";
-
+import Promo from "../Promo/index";
 function PromoCard() {
   function createPromoCard(createPromo) {
     return (

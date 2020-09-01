@@ -1,5 +1,6 @@
 .Card-Promo {
-  margin: 10% auto 10% auto;
+  margin: 10% auto 20% auto;
+
   padding: auto;
   width: 400px;
   height: 640px;
@@ -56,16 +57,25 @@
 /* Media Query of the card on Phone small screens */
 @media (max-width: 640px) {
   .Card-Promo {
-    margin: 160px 5% 0;
-    width: 320px;
-    height: 580px;
+    margin: 160px 0 0 60px;
+    width: 250px;
+    height: 400px;
   }
-}
-@media (max-width: 640px) {
+  .Card-Promo h1 {
+    font-size: 18px;
+  }
+  .Card-Promo h2 {
+    font-size: 14px;
+  }
+
+  .Card-Promo p {
+    font-size: 10px;
+  }
   .Card-Promo button {
-    margin: 20px 20px 0 20px;
-    width: 285px;
-    height: 50px;
+    margin: 20px 20px 0 50px;
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
   }
 }
 
@@ -73,7 +83,9 @@
 .Group-Promo {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: 30px;
+  position: absolute;
+  left: 550px;
 }
 
 @media (max-width: 1060px) {
@@ -85,11 +97,15 @@
 @media (max-width: 720px) {
   .Group-Promo {
     grid-template-columns: repeat(1, 1fr);
+    left: 5px;
+    top: 120px;
   }
 }
 
 @media (max-width: 640px) {
   .Group-Promo {
     grid-template-columns: repeat(1, 1fr);
+    left: 5px;
+    top: 120px;
   }
 }

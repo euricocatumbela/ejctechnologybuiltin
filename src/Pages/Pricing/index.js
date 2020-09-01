@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../../Components/Header/index";
-import Footer from "../../Components/Footer/index";
 import PromoCard from "../../Components/PromoCard/index";
-
+import Bottom from "../../Components/Bottom/index";
+import StaticContextProvider from "../../Context/StaticContext/index";
 function Princing() {
   return (
     <div className="Hero2">
@@ -101,7 +101,9 @@ function Princing() {
         </div>
       </div>
 
-      <Footer />
+      <StaticContextProvider>
+        <Bottom />
+      </StaticContextProvider>
     </div>
   );
 }

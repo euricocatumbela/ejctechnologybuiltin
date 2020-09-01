@@ -1,14 +1,8 @@
 .Hero2 {
-  background: url("/images/background55.jpg");
-  height: 1110px;
-  background-size: cover;
-  background-position: center;
-  position: relative; /* This was used for SVG */
 }
 
 .PricingCard {
-  margin: 140px auto auto auto;
-  /* position: relative; */
+  margin: 740px auto auto auto;
   overflow: hidden;
   width: 900px;
   height: 890px;
@@ -139,7 +133,14 @@
 @media (max-width: 720px) {
   .PricingCard {
     width: 310px;
-    height: 420px;
+    height: 340px;
+  }
+}
+@media (max-width: 640px) {
+  .PricingCard {
+    margin-top: 1120px;
+    width: 310px;
+    height: 340px;
   }
 }
 
