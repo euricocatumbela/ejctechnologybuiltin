@@ -8,9 +8,9 @@ function Quote() {
     <div>
       <Header />
       <div className="CardQuote">
-        <form name="contact" className="form" action="/contact" method="post">
+        <form name="quote" className="form" action="/contact" method="post">
           <h1> Get Quote</h1>
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="form-name" value="quote" />
           <input
             required
             maxlength="30"
