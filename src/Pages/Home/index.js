@@ -69,7 +69,6 @@ function Home(props) {
           />
           <Card
             title="UI/UX Design With XD"
-            text={day + " April "}
             image="https://static.dribbble.com/users/61921/screenshots/4439578/channels.png"
           />
           <Card
@@ -114,7 +113,6 @@ function Home(props) {
         <div className="Cards-1Group">
           <Card
             title="Food deliver"
-            text={day + " April "}
             image="https://static.dribbble.com/users/3245373/screenshots/13538345/media/850794eda2a9b8caeef064c5c94aa2bf.png"
           />
           <Card
@@ -131,7 +129,6 @@ function Home(props) {
           />
           <Card
             title="Live Dashboard"
-            text={day + " April "}
             image="https://static.dribbble.com/users/863815/screenshots/9699028/media/461bbfca32fee7b48f52ab6fc3825e12.jpg"
           />
           <Card

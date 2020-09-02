@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Promo(props) {
   return (
     <div>
@@ -9,7 +9,9 @@ function Promo(props) {
         <p>{props.content1}</p>
         <p>{props.content2}</p>
         <p>{props.content3}</p>
-        <button>GET PRO WEBSITE</button>
+        <Link to="/quote">
+          <button style={{ cursor: "pointer" }}>GET PRO WEBSITE</button>
+        </Link>
       </div>
     </div>
   );

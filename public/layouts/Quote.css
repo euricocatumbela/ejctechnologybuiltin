@@ -23,8 +23,19 @@
   width: 230px;
   height: 60px;
   margin: auto;
+  cursor: pointer;
 }
 
+.form h1 {
+  text-align: center;
+  background: linear-gradient(
+    104.74deg,
+    rgb(176, 30, 255) 0%,
+    rgb(225, 70, 124) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @media (max-width: 640px) {
   .CardQuote .form {
     width: 300px;
