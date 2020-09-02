@@ -128,10 +128,20 @@ a {
 
 .Hero .Logos {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 40px;
   margin: 100px 0;
   justify-items: center;
+}
+
+.Hero .LinksLogo {
+  background: none;
+  border: none;
+  transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
+}
+
+.Hero .LinksLogo:hover {
+  background: none;
 }
 
 @media (max-width: 640px) {
@@ -141,10 +151,14 @@ a {
 }
 .Cards-1 h2 {
   margin: 50px 20px;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   font-weight: 700;
-  background: linear-gradient(156.9deg, #14f1d9 0%, #3672f8 100%);
+  background: linear-gradient(
+    104.74deg,
+    rgb(176, 30, 255) 0%,
+    rgb(225, 70, 124) 100%
+  );
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

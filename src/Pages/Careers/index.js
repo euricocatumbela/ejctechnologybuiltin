@@ -1,7 +1,8 @@
 import React from "react";
 import descriptions from "../../Context/Description";
 import Header from "../../Components/Header/index";
-import Footer from "../../Components/Footer/index";
+import Bottom from "../../Components/Bottom/index";
+import StaticContextProvider from "../../Context/StaticContext/index";
 import DemoNextCard from "../../Components/DemoNextCard/index";
 
 function Careers() {
@@ -24,7 +25,9 @@ function Careers() {
           paragraph3={descriptions[0].paragraph3}
           paragraph4={descriptions[0].paragraph4}
         />
-        <Footer />
+        <StaticContextProvider>
+          <Bottom />
+        </StaticContextProvider>
       </div>
     </div>
   );

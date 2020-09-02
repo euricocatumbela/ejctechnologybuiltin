@@ -1,13 +1,13 @@
 .Careers {
-  margin: 0;
+  margin: 0px;
   /* padding: 150px 0 150px 0; */
 }
 
 .HeadingCareer h1 {
-  margin: 0;
-  padding: 220px 0 0px 0;
+  margin: 0px 0 0 20px;
+  padding: 140px 0 0px 0;
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   background: linear-gradient(
     104.74deg,
     rgb(176, 30, 255) 0%,
@@ -24,4 +24,11 @@
   line-height: 1.3x;
   font-size: 20px;
   font-weight: 400;
+}
+
+@media (max-width: 640px) {
+  .HeadingCareer h1 {
+    margin-right: 30px;
+    font-size: 30px;
+  }
 }

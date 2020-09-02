@@ -4,7 +4,8 @@ import descriptions from "../../Context/Description/index";
 import contents from "../../Context/Content/index";
 import DemoCard from "../../Components/DemoCard/index";
 import Header from "../../Components/Header/index";
-import Footer from "../../Components/Footer/index";
+import StaticContextProvider from "../../Context/StaticContext/index";
+import Bottom from "../../Components/Bottom";
 function Privacy() {
   return (
     <div>
@@ -36,7 +37,9 @@ function Privacy() {
         />
         <DemoCard title={contents[4].title} content={contents[4].content} />
       </div>
-      <Footer />
+      <StaticContextProvider>
+        <Bottom />
+      </StaticContextProvider>
     </div>
   );
 }

@@ -90,10 +90,6 @@ const Bottom = (props) => {
             <li>
               <Link to="/pricing">{contents.secondLink}</Link>
             </li>
-
-            <li>
-              <Link>{contents.lastLink}</Link>
-            </li>
           </ul>
         </LinkGroup>
       </FooterGroup>
@@ -106,13 +102,10 @@ const Bottom = (props) => {
         <LinkGroup>
           <ul>
             <li>
-              <Link to="/pricing">{contents_01.fisrtLink}</Link>
+              <Link to="/privacy">{contents_01.fisrtLink}</Link>
             </li>
             <li>
-              <Link>{contents_01.secondLink}</Link>
-            </li>
-            <li>
-              <Link>{contents_01.lastLink}</Link>
+              <Link to="/faq">{contents_01.secondLink}</Link>
             </li>
           </ul>
         </LinkGroup>
@@ -126,14 +119,10 @@ const Bottom = (props) => {
         <LinkGroup>
           <ul>
             <li>
-              <Link>{contents_02.fisrtLink}</Link>
+              <Link to="/team">{contents_02.fisrtLink}</Link>
             </li>
             <li>
-              <Link>{contents_02.secondLink}</Link>
-            </li>
-
-            <li>
-              <Link>{contents_02.lastLink}</Link>
+              <Link to="/careers">{contents_02.secondLink}</Link>
             </li>
           </ul>
         </LinkGroup>

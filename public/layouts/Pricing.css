@@ -143,6 +143,11 @@
     height: 340px;
   }
 }
+@media (max-width: 640px) {
+  .HeadingOne h1 {
+    font-size: 30px;
+  }
+}
 
 @media (max-width: 720px) {
   .PricingCard .Row-border {

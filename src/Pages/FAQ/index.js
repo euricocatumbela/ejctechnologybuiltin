@@ -1,9 +1,10 @@
 import React from "react";
 import Header from "../../Components/Header/index";
-import Footer from "../../Components/Footer/index";
 import DemoCard from "../../Components/DemoCard/index";
 import DemoNextCard from "../../Components/DemoNextCard/index";
 import contents from "../../Context/Content/index";
+import StaticContextProvider from "../../Context/StaticContext";
+import Bottom from "../../Components/Bottom";
 
 function FAQ(props) {
   return (
@@ -25,7 +26,9 @@ function FAQ(props) {
           <DemoCard title={contents[3].title} content={contents[3].content} />
         </div>
       </div>
-      <Footer />
+      <StaticContextProvider>
+        <Bottom />
+      </StaticContextProvider>
     </div>
   );
 }

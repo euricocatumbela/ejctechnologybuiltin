@@ -2,7 +2,8 @@ import React from "react";
 import Detail from "../../Components/Detail/index";
 import contacts from "../../Context/Contacts/index";
 import Header from "../../Components/Header/index";
-import Footer from "../../Components/Footer/index";
+import StaticContextProvider from "../../Context/StaticContext/index";
+import Bottom from "../../Components/Bottom";
 
 function Team() {
   function createCard(card) {
@@ -22,7 +23,9 @@ function Team() {
         <h1>The Team </h1>
         <div className="GroupTeam">{contacts.map(createCard)}</div>
       </div>
-      <Footer />
+      <StaticContextProvider>
+        <Bottom />
+      </StaticContextProvider>
     </div>
   );
 }

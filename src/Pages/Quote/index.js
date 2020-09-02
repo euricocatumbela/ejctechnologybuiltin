@@ -1,62 +1,42 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "../../Components/Header/index";
-import Footer from "../../Components/Footer/index";
+import Bottom from "../../Components/Bottom/index";
+import StaticContextProvider from "../../Context/StaticContext";
 
 function Quote() {
-  const [project, setProject] = useState();
-  const [email, setEmail] = useState();
-  const [budget, setBudget] = useState();
-
-  function handleBudget(event) {
-    const newBuget = event.target.value;
-    setBudget(newBuget);
-  }
-
-  function handleProject(event) {
-    const newProject = event.target.value;
-    setProject(newProject);
-  }
-
-  function handleEmail(event) {
-    const newEmail = event.target.value;
-    setEmail(newEmail);
-  }
-
   return (
-    <div className="Hero1">
+    <div>
       <Header />
       <div className="CardQuote">
-        <form className="form">
-          <h1 style={{ textAlign: "center" }}>
-            Welcome, {email} {project} {budget}
-          </h1>
-
+        <form name="contact" className="form" action="/contact" method="post">
+          <input type="hidden" name="form-name" value="contact" />
           <input
+            required
             maxlength="30"
-            onChange={handleEmail}
             type="email"
+            name="email"
             placeholder="Email address"
-            value={email}
           />
           <input
-            onChange={handleProject}
+            required
             maxlength="30"
+            name="project"
             type="project"
             placeholder="What your poject need?"
-            value={project}
           />
           <input
-            onChange={handleBudget}
+            required
             maxlength="20"
+            name="budget"
             type="budget"
             placeholder="What is your budget?"
-            value={budget}
           />
-          {/* <input onChange={handleBudget} name="Question_1" value={budget} /> */}
           <button type="submit">submit</button>
         </form>
       </div>
-      <Footer />
+      <StaticContextProvider>
+        <Bottom />
+      </StaticContextProvider>
     </div>
   );
 }
