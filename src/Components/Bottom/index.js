@@ -34,7 +34,7 @@ const LinkGroup = styled.div`
   }
 
   a {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 24px;
   }
 `;
@@ -56,16 +56,9 @@ const Copyright = styled.div`
 
 const FooterHeading = styled.p`
   margin: 0px;
-
-  background: linear-gradient(
-    104.74deg,
-    rgb(148, 164, 186) 0%,
-    rgb(148, 164, 186) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
 `;
 

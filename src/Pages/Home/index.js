@@ -7,8 +7,6 @@ import Bottom from "../../Components/Bottom/index";
 import StaticContextProvider from "../../Context/StaticContext";
 
 function Home(props) {
-  var d = new Date();
-  var day = d.getDate();
   return (
     <div>
       <Header />
