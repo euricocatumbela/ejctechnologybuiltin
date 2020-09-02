@@ -146,7 +146,7 @@ a {
 
 @media (max-width: 640px) {
   .Hero .Logos {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 .Cards-1 h2 {
