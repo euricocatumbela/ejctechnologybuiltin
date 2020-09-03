@@ -19,13 +19,13 @@ function Princing() {
               <h3>Package</h3>
             </div>
             <div className="Row-border">
-              <h3>HTML/CSS/EJS</h3>
+              <h3>Full Content</h3>
             </div>
             <div className="Row-border">
-              <h3>Express JS</h3>
+              <h3>Dashboard</h3>
             </div>
             <div className="Row-border">
-              <h3>React JS</h3>
+              <h3>SEO</h3>
             </div>
             <div className="Column-border" style={{ background: "#23b5e7" }}>
               <h4> Business Website</h4>
@@ -34,7 +34,7 @@ function Princing() {
               <h2>✔</h2>
             </div>
             <div className="Column-border">
-              <h2>✔</h2>
+              <h2></h2>
             </div>
             <div className="Column-border"></div>
             <div className="Column-border" style={{ background: "#23b5e7" }}>
