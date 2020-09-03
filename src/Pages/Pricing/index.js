@@ -33,9 +33,7 @@ function Princing() {
             <div className="Column-border">
               <h2>✔</h2>
             </div>
-            <div className="Column-border">
-              <h2></h2>
-            </div>
+            <div className="Column-border">{/* <h2></h2> */}</div>
             <div className="Column-border"></div>
             <div className="Column-border" style={{ background: "#23b5e7" }}>
               <h4> E-Commerce Webiste</h4>
