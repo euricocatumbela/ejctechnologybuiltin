@@ -3,7 +3,7 @@ const contacts = [
     id: 1,
     image: "./images/lara.png",
     bio:
-      "Lara is a young and talented woman who started her career in markenting, She loves business law and Finantcial.",
+      "Lara is a young and talented woman who started her career in markenting, She loves business, law and Financial.",
     name: "Isabel Lara",
     title: "Legal & Financial Manager",
   },
