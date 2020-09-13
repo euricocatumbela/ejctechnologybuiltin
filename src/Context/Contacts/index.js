@@ -88,7 +88,7 @@ const contacts = [
     bio:
       "Eurico is a consulting engineer and designer who is always in love with technology and new creations, imagination is what drives him and makes him always trying to create things from scratch.  ",
     name: "Eurico Catumbela",
-    title: "Support Enginner",
+    title: "Cloud Support Engineer",
   },
 ];
 
