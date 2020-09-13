@@ -14,7 +14,7 @@ function Home(props) {
         <div className="HeroGroup">
           <h1>Buy your website today</h1>
           <p>value proposition with product engineering services.</p>
-          <a href="https://www.buzzsprout.com/1027399">Listen to my Podcst</a>
+          <a href="https://www.buzzsprout.com/1027399">Listen to our Podcast</a>
           <div className="Logos">
             <a
               href="https://www.instagram.com/ejctechnology.co.za/"
