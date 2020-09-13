@@ -1,6 +1,6 @@
 .CardTeam {
-  width: 325px;
-  height: 295px;
+  width: 300px;
+  height: 320px;
   margin: 0px auto;
   padding: auto auto;
   overflow: hidden;
@@ -10,11 +10,10 @@
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.2);
   border-image: initial;
-  border-radius: 20px;
+  border-radius: 30px;
   transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
   background: rgba(4, 8, 37, 0.8);
   display: grid;
-  /* grid-template-rows: 1fr 1fr; */
 }
 
 .TeamHeading {
@@ -36,13 +35,13 @@
   text-align: center;
 }
 
-.CardTeam img {
+/* .CardTeam img {
   margin: 20px 0 0 20px;
   width: 60px;
   height: 60px;
   border-radius: 100%;
   transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
-}
+} */
 
 .CardTeam:hover {
   transform: scale(1.1, 1.1);
@@ -69,8 +68,8 @@
 }
 .CardTeam img {
   margin: 20px 0 0 20px;
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   border-radius: 100%;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
   line-height: 1.2;
@@ -84,7 +83,7 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 50px 0 50px 0;
+  margin: 10px 0 50px 0;
   text-align: center;
   font-size: 22px;
 }
@@ -149,18 +148,18 @@
 @media (max-width: 640px) {
   .CardTeam {
     width: 300px;
-    height: 295px;
+    height: 240px;
   }
 }
 @media (max-width: 640px) {
   .CardTeam p {
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 
 @media (max-width: 640px) {
   .CardTeam h3 {
-    font-size: 12px;
+    font-size: 18px;
   }
 }
 
@@ -172,8 +171,8 @@
 
 @media (max-width: 640px) {
   .CardTeam img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
   }
 }
 

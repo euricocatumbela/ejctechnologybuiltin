@@ -13,7 +13,7 @@ const contacts = [
     bio:
       "Abednego is a junior developer who staterd his career working remotely, very talented and motived young man. Passionate about programming and design.",
     name: "Abednego Jeremias",
-    title: "Designer & Front End",
+    title: "UX/UI Designer & Front End",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const contacts = [
     bio:
       "Nelson is a recent graduated engineer from CPUT who loves to build things.",
     name: "Aristóteles Nicolau ",
-    title: "Software Enginner",
+    title: "Software Enginner Intern",
   },
 
   {
@@ -30,7 +30,7 @@ const contacts = [
     bio:
       "Jose is the definition of humbleness, creative and intuitive always opened to learn new principle",
     name: "Jose Marques",
-    title: "Designer & Front End",
+    title: "Front End Egineer",
   },
   {
     id: 5,

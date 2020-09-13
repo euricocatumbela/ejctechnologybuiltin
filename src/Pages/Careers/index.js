@@ -18,13 +18,7 @@ function Careers() {
           paragraph3={descriptions[0].paragraph3}
           paragraph4={descriptions[0].paragraph4}
         />
-        <DemoNextCard
-          title={descriptions[0].title}
-          paragraph1={descriptions[0].paragraph1}
-          paragraph2={descriptions[0].paragraph2}
-          paragraph3={descriptions[0].paragraph3}
-          paragraph4={descriptions[0].paragraph4}
-        />
+
         <StaticContextProvider>
           <Bottom />
         </StaticContextProvider>

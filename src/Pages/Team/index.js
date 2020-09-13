@@ -10,7 +10,7 @@ function Team() {
     return (
       <Detail
         img={card.image}
-        bio={card.bio}
+        // bio={card.bio}
         name={card.name}
         title={card.title}
       />
