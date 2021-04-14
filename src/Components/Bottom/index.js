@@ -112,7 +112,7 @@ const Bottom = (props) => {
         <LinkGroup>
           <ul>
             <li>
-              <Link to="/team">{contents_02.fisrtLink}</Link>
+              <Link to="/quote">{contents_02.fisrtLink}</Link>
             </li>
             <li>
               <Link to="/careers">{contents_02.secondLink}</Link>

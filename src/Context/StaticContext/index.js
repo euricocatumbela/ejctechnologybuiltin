@@ -26,7 +26,7 @@ const StaticContextProvider = (props) => {
   const [contents_02] = useState({
     title: "Commumity",
 
-    fisrtLink: "Team",
+    fisrtLink: "Quote",
 
     secondLink: "Career",
 
