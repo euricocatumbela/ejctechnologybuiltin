@@ -36,8 +36,8 @@ class Header extends React.Component {
           <Link className="Links" to="/pricing">
             Pricing
           </Link>
-          <Link className="Links" to="/team">
-            Team
+          <Link className="Links" to="/faq">
+            FAQ
           </Link>
           <Link to="/quote">
             <button>Free Quote</button>

@@ -122,8 +122,8 @@ const Bottom = (props) => {
 
         <Copyright>
           Backgrounds made in Cinema 4D, iOS app in Swift, site in React.
-          <a href="mailto:team@takeAnydoubt.com"> Email us </a>
-          to ask anything. Copyright TakeAnyDoubt © 2020
+          <a href="mailto:team@ejctechnology.co.za"> Email us </a>
+          to ask anything. EJC Technology © 2020
           <Link to="/privacy"> Terms of Service - Privacy Policy </Link>
         </Copyright>
       </FooterGroup>
