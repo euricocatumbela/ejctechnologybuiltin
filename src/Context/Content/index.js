@@ -8,7 +8,7 @@ const contents = [
   {
     title: "Which plan should I choose? ",
     paragraph1:
-      "Custumers are more then welcome to choose any plan they want, currently we are offering two packages that are available to purchase, business Website package and ecommerce Website package.",
+      "Custumers are more than welcome to choose any plan they want, currently we are offering two packages that are available to purchase, business Website package and ecommerce Website package.",
     paragraph2:
       " The two packages are found on the pricing page, Custumers who are interested to get a different package are more then welcome to get the quotation, by explaining the type of project they would like to build.",
     paragraph3:
