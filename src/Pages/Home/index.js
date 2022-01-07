@@ -88,7 +88,7 @@ function Home(props) {
               image="https://static.dribbble.com/users/375563/screenshots/9730344/media/11e32eccd881c5c6c7e88ef05ea321e7.png"
             />
             <Card
-              title="CMS integration API"
+              title="CMS API Integration"
               image="https://static.dribbble.com/users/414694/screenshots/5247254/interface_shot_2x.png"
             />
             <Card
