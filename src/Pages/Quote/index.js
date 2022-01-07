@@ -23,7 +23,7 @@ function Quote() {
             maxlength="30"
             name="project"
             type="project"
-            placeholder="What your poject need?"
+            placeholder="What your project need?"
           />
           <input
             required
