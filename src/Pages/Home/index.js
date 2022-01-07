@@ -110,7 +110,7 @@ function Home(props) {
           image="/images/wallpaper2.jpg"
           logo="/images/Logo.svg"
           title="Vision"
-          text="Ejc Technology is a Remotely software development company that provides businesses worldwide with custom technology solutions. As an application development company with over 10 skilled software developers, EJC Technology combines technological expertise, specific domain experience, and passion for excellence to deliver enterprise-grade solutions."
+          text="EJC Technology is a remote software development company that provides businesses worldwide with custom technology solutions. As an application development company, EJC Technology combines technological expertise, specific domain experience, and passion for excellence to deliver enterprise-grade solutions."
         />
         <div className="Cards-1">
           <h2>ON-DEMAND Platforms</h2>
