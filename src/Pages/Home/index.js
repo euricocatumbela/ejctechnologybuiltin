@@ -16,7 +16,7 @@ function Home(props) {
 
         <div className="Hero">
           <div className="HeroGroup">
-            <h1>Buy your website today</h1>
+            <h1>Build your website today</h1>
             <p>value proposition with product engineering services.</p>
             <a href="https://www.buzzsprout.com/1027399">
               Listen to our Podcast
@@ -100,7 +100,7 @@ function Home(props) {
               image="https://static.dribbble.com/users/2024047/screenshots/6262434/_____2x.png"
             />
             <Card
-              title="Database infrastructura"
+              title="Database infrastructure"
               image="https://static.dribbble.com/users/1018473/screenshots/5664135/security_2x.jpg"
             />
           </div>
@@ -116,7 +116,7 @@ function Home(props) {
           <h2>ON-DEMAND Platforms</h2>
           <div className="Cards-1Group">
             <Card
-              title="Food deliver"
+              title="Food delivery"
               image="https://static.dribbble.com/users/3245373/screenshots/13538345/media/850794eda2a9b8caeef064c5c94aa2bf.png"
             />
             <Card
