@@ -8,7 +8,7 @@ const descriptions = [
     paragraph3:
       "Coders, you love to work with designers. You want to get better at design. You love beautiful code that is short, expressive and easy to explain. You are active on github and want to contribute. You know CSS, React Native, Express or React. ",
     paragraph4:
-      "Full-time, remote and interns are welcome. Shoot me an email: team@ejctechnology.com, Please include a link to your portfolio, live projects or github repos that you have created",
+      "Full-time, remote and interns are welcome. Shoot me an email: team@ejctechnology.com, Please include a link to your portfolio, live projects or github repos that you have created.",
   },
 
   {
