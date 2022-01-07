@@ -14,17 +14,17 @@ const contents = [
     paragraph3:
       " A quotation form is provided for custumers to write down the project name and the estimated amount that they would like to pay. The form is found on the Quote page",
     paragraph4:
-      "After the quotation form is filled up custumer needs to submit the quatation form",
+      "After the quotation form is filled up custumer needs to submit the quatation form.",
   },
   {
     title: "How long will it take to build a business website?",
     content:
-      "Business websites normally take a week to complete, normally depends on the custumers project, the maximum that can take is two weeks.",
+      "The completion period for a business website varies from company to company and depends on the complexity of the website which usually take up to three full weeks.",
   },
   {
     title: "Who do I pay?",
     content:
-      "You can purchase a Pro Website anytime with a credit card. Or, you can purchase sending the money through our account following with your reference name.",
+      "You can purchase a Pro Website anytime with a credit card, or you can purchase sending the money through our account following with your reference name.",
   },
   {
     title: "Children's Privacy ",
