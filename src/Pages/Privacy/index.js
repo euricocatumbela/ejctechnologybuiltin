@@ -11,7 +11,7 @@ function Privacy() {
     <div>
       <Header />
       <div className="HeadingFAQ">
-        <h1>Privacy Policy</h1>
+        <h1>Privacy & Policy</h1>
 
         <DemoNextCard
           title={descriptions[2].title}
